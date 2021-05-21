@@ -25,4 +25,5 @@ DATABASE TABLE COLUMN(S):
 - url (VARCHAR (255))
 
 Author: Darius Chua
+
 Email address: chua.darius.14@gmail.com
