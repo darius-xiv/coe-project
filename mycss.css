@@ -1,0 +1,137 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #343a40;
+    color: white;
+    animation-name: custom;
+    animation-duration: 4s;
+}
+@keyframes custom{
+    from {background-color: #464e56;}
+    to {background-color: #343a40;}
+}
+
+a{
+    text-decoration: none;
+    color: #90ee90;
+}
+div.head{
+    text-align: center;
+    width: 600px;
+    padding: 20px 40px;
+    border: 1px dashed #28a745;
+    margin: 0px auto;
+    animation-name: header;
+    animation-duration: 5s;
+}
+div.head:hover{
+    transform: scale(1.03);
+}
+    div.head h1{
+        color: #90ee90
+    }
+    div.head-sub{
+        text-align: center;
+        width: 600px;
+        padding: 20px 40px;
+        margin: 0px auto;
+    }
+    div.head h1, h4, h5{
+        margin: 0px auto;
+    }
+form{
+    text-align: center;
+    width: 600px;
+    padding: 20px 40px;
+    margin: 0px auto;
+}
+    form span{
+        font-size: 1.2em;
+        vertical-align: middle;
+    }
+    form div{
+        display: inline-block; 
+        width: 250px;
+        border: 1px dashed #90ee90;
+        padding: 20px 5px;
+        margin: 0px 5px;
+        
+    }
+    form div.left:hover{
+        transform: scale(1.03);
+    }
+    form div.right:hover{
+        transform: scale(1.03);
+    }
+        form div img{
+            display: block;
+            margin: 0px auto;
+            width: 200px;
+            height: 300px;
+            object-fit: contain;
+            background-color: white;
+            border: 2px solid white;
+        }
+        form div select{
+            display: block;
+            margin: 0px auto 10px;
+            padding: 7px 15px;
+            background-color: #28a745;
+            color: white;
+            width: 205px;
+        }
+        form div select:hover{
+            transform: scale(1.1);
+        }
+    form input[type="submit"]{
+        margin: 20px auto 10px;
+        padding: 10px 20px;
+        display: block;
+        background-color: #28a745;
+        border: 1px solid #90ee90;
+        color: white;
+        width: 600px;
+        font-size: 1.2em;
+    }
+    form input[type="submit"]:hover{
+        transform: scale(1.1);
+    }
+div.info{
+    display: block;
+    width: 700px;
+    margin: auto;
+    align-items: center;
+}
+    div.info div{
+        display: inline-block;
+        vertical-align: top;
+        padding: 10px 20px;
+        border-left: 4px solid white;
+    }
+    div.info div.left{
+        float: left;
+    }
+    div.info div.right{
+        float: right;
+    }
+    div.info div span{
+        display: block;
+    }
+    div.info div span h4{
+        display: inline-block;
+        width: 140px;
+        color: #90ee90;
+    }
+    div.info div span h5{
+        display: inline-block;
+        width: 140px;
+    }
+    div.info div span p.green{
+        display: inline-block;
+        margin: 0;
+        color: #28a745;
+    }
+    div.info div span p.red{
+        display: inline-block;
+        margin: 0;
+        color: #e3242b;
+    }
